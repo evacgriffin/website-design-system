@@ -1,0 +1,127 @@
+html {
+    font-family: Merriweather, serif;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    text-decoration: underline;
+}
+
+.section {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+.section-title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colors div {
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.fonts {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.fonts div {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.fonts h2 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.fonts .bold {
+    font-weight: 700;
+}
+
+.fonts .italics {
+    font-style: italic;
+}
+
+#title {
+    font-family: 'Square Peg';
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+#first-color {
+    color: white;
+    background-color: #272343;
+}
+	
+#second-color { 
+	background: #ffffff; 
+}
+
+#third-color { 
+	background: #e3f6f5; 
+}
+
+#fourth-color { 
+	background: #bae8e8;
+}
+
+#raleway {
+    font-family: Raleway, sans-serif;
+}
+
+#square-peg {
+    font-family: 'Square Peg';
+    font-size: 20px;
+}
+
+#montserrat {
+    font-family: Montserrat;
+}
+
+#main-heading {
+    font-family: 'Square Peg';
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#sub-heading {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#paragraph-text {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+}
